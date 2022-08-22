@@ -1,7 +1,10 @@
-const input = document.getElementById('button');
+const input = document.getElementById('input');
 
-function addingEventListener() {
+function addingEventListener(){
   alert('I was clicked!');
 }
 
-addingEventListener('click', clickAlert);
+input.addEventListener('click', addingEventListener);
+
+
+
